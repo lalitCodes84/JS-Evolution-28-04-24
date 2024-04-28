@@ -1,0 +1,56 @@
+/* Sset the default font family for the whole page */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* center align the heading */
+#heading {
+    text-align: center;
+}
+
+/* add margin below filters */
+.filters {
+    margin-bottom: 20px;
+}
+
+/* Add right margin to selects elements inside filterss */
+.filters select {
+    margin-right: 10px;
+}
+
+/* Styles the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style table header and date cells */
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Center align the pagination */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style pagination buttons */
+.pagination button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+/* Disable pagination buttons when disabled */
+.pagination button:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+}
