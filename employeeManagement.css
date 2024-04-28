@@ -43,6 +43,7 @@ table td {
     padding: 10px 20px;
     font-size: 16px;
     margin: 0 10px;
+    background-color: grey;
     border: none;
     color: white;
     cursor: pointer;
